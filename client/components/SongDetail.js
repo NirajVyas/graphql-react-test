@@ -9,8 +9,6 @@ const SongDetail = (props) => {
 
   const { song } = props.data
 
-  console.log('propsprops: ', props)
-
   if (!song) return <div>Loading...</div>
 
   return (

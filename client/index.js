@@ -22,7 +22,7 @@ const Root = () => {
           <App>
             <Route path="/" exact component={SongList} />
             <Route path="/songs/new" exact component={SongCreate} />
-            <Route path="/songs/:id" exact component={SongDetail} />
+            <Route path="/song/:id" exact component={SongDetail} />
           </App>
         </Switch>
       </HashRouter>
